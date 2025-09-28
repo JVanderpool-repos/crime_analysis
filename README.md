@@ -38,10 +38,11 @@ wget "https://data.lacity.org/api/views/2nrs-mtv8/rows.csv?accessType=DOWNLOAD" 
 ```
 crime_analysis/
 ├── README.md                      # This file
+├── requirements.txt               # Python dependencies
 ├── us_crime_analysis.ipynb        # Main analysis notebook
 ├── Crime_Data_from_2020_to_Present.csv  # Dataset (download separately)
 ├── .venv/                         # Python virtual environment
-└── requirements.txt               # Python dependencies (auto-generated)
+└── .gitignore                     # Git ignore file
 ```
 
 ## 🚀 Getting Started
@@ -76,7 +77,7 @@ crime_analysis/
 
 3. **Install required packages**
    ```bash
-   pip install pandas numpy matplotlib seaborn plotly requests beautifulsoup4 folium openpyxl jupyter
+   pip install -r requirements.txt
    ```
 
 4. **Download the dataset**
