@@ -2,6 +2,11 @@
 Crime_Data_from_2020_to_Present.csv
 *.csv
 
+# SQLite Database Files
+*.db
+*.sqlite
+*.sqlite3
+
 # Python
 __pycache__/
 *.py[cod]
